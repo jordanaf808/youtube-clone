@@ -10,7 +10,7 @@ import SearchIcon from '@material-ui/icons/Search';
 
 const HeaderRightContainer = styled.div`
   width: 20%;
-  min-width: 200px;
+  /* min-width: 200px; */
   justify-content: space-around;
   @media only screen and (max-width: 650px) {
     width: 40%;
