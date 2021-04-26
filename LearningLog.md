@@ -33,3 +33,5 @@ fixed Card Image aspect ration, added random number and round to decimal functio
 4/21/21
 
 Should I change my useState's to useRef's so it doesn't reload everything everytime I click...
+
+change mobile search expand to useRef.

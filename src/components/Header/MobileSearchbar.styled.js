@@ -13,11 +13,12 @@ const MobileSearchbarContainer = styled.div`
     top: 0;
     right: 0;
     height: 65px;
-    /* width: 100%; */
-    width: ${props =>
-      props.expand === '75px' ? 'calc(100vw - 77px)' : 'calc(100vw - 251px)'};
+    width: calc(100vw - 90px);
+    /* width: ${props =>
+      props.expand === '75px'
+        ? 'calc(100vw - 90px)'
+        : 'calc(100vw - 251px)'}; */
     transition: width 250ms cubic-bezier(0.5, 0, 0.5, 1);
-
     margin-top: 65px;
     margin-left: ${props => (props.expand === '75px' ? '75px' : '200px')};
     /* padding: 0.8rem 10%; */

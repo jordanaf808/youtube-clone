@@ -12,7 +12,7 @@ const HeaderRightContainer = styled.div`
   width: 20%;
   min-width: 200px;
   justify-content: space-around;
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 450px) {
     min-width: 100px;
     width: 40%;
   }

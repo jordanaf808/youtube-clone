@@ -7,12 +7,14 @@ const BodyContainer = styled.div`
   /* gap: 1rem; */
   padding: 1rem;
   place-items: center;
-  width: ${props =>
-    props.expand === '75px' ? 'calc(100vw - 75px)' : 'calc(100vw - 250px)'};
+  width: calc(100vw - 75px);
+  /* width: ${props =>
+    props.expand === '75px' ? 'calc(100vw - 75px)' : 'calc(100vw - 250px)'}; */
   height: 100%;
   min-height: 100vh;
   margin-top: 65px;
-  margin-left: ${props => (props.expand === '75px' ? '75px' : '250px')};
+  margin-left: 75px;
+  /* margin-left: ${props => (props.expand === '75px' ? '75px' : '250px')}; */
   background: var(--bg);
   border-top: var(--border);
   transition: width 250ms cubic-bezier(0.5, 0, 0.5, 1);
